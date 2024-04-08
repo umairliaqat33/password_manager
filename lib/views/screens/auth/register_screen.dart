@@ -7,12 +7,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+
 import 'package:password_manager/models/user_model/user_model.dart';
 import 'package:password_manager/repositories/auth_repository.dart';
 import 'package:password_manager/repositories/firestore_repository.dart';
 import 'package:password_manager/utils/utils.dart';
 import 'package:password_manager/views/screens/tab_bar_screen/tab_bar_screen.dart';
-import 'package:password_manager/views/widgets/logo_widget.dart';
+import 'package:password_manager/views/widgets/general_widgets/logo_widget.dart';
 import 'package:password_manager/views/widgets/text_fields/password_text_field.dart';
 import 'package:password_manager/views/widgets/text_fields/text_form_field_widget.dart';
 

@@ -5,9 +5,8 @@ import 'package:flutter/material.dart';
 
 import 'package:password_manager/repositories/auth_repository.dart';
 import 'package:password_manager/views/screens/auth/login_screen.dart';
-
 import 'package:password_manager/views/screens/tab_bar_screen/tab_bar_screen.dart';
-import 'package:password_manager/views/widgets/logo_widget.dart';
+import 'package:password_manager/views/widgets/general_widgets/logo_widget.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -36,7 +35,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child: LogoWidget(),
             ),
             Text(
-              "Welcome Back",
+              "Keep your credentials safe with you",
               style: TextStyle(
                 color: Theme.of(context).primaryColor,
                 fontWeight: FontWeight.bold,

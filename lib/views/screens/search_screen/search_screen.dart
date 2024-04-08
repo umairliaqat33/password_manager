@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:password_manager/config/size_config.dart';
 import 'package:password_manager/views/widgets/dialogues/view_dialogue.dart';
 import 'package:password_manager/models/password_model/password_model.dart';

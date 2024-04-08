@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
+
 import 'package:password_manager/views/screens/add_credentials/add_credentials.dart';
 import 'package:password_manager/utils/colors.dart';
 import 'package:password_manager/views/screens/home_Screen/home_screen.dart';
+import 'package:password_manager/views/screens/search_screen/search_screen.dart';
 import 'package:password_manager/views/widgets/dialogues/sign_out_alert_dialogue.dart';
 import 'package:password_manager/views/screens/password_creation_screen/password_creating_screen.dart';
-
-import '../search_screen/search_screen.dart';
 
 class TabBarScreen extends StatefulWidget {
   const TabBarScreen({super.key});

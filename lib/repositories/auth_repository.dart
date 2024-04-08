@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:password_manager/utils/exceptions.dart';
 import 'package:password_manager/utils/strings.dart';
 
